@@ -1,0 +1,11 @@
+nav {
+  color: green;
+}
+
+.nav__logo__box .display__block {
+  display: block;
+}
+
+.nav__logo__box .display__none {
+  display: none;
+}
