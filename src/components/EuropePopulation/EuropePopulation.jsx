@@ -11,7 +11,10 @@ const EuropePopulation = () => {
   };
   return (
     <div className="europe__population">
-      <img src="https://svgsilh.com/svg/151588.svg" alt="Europe Map" />
+      <div className="europe__population__img__box">
+        <img className="europe__img" src="https://svgsilh.com/svg/151588.svg" alt="Europe Map" />
+      </div>
+      <div className="center-line" />
       <div className="europe__population__text">
         <h1>Europe</h1>
         <p>

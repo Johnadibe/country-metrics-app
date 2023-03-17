@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-// const API = 'https://restcountries.com/v3.1/region/europe';
-const API = 'https://restcountries.com/v3.1/all';
+const API = 'https://restcountries.com/v3.1/region/europe';
+// const API = 'https://restcountries.com/v3.1/all';
 
 const initialState = {
   countriesData: [], // Getting Data for all the countries

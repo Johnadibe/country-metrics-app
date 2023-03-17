@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import micro from '../../assests/svg/microphone-solid.svg';
 import gear from '../../assests/svg/gear-solid.svg';
 import arrrowLeft from '../../assests/svg/angle-left-solid.svg';
+import logo from '../../assests/image/logoimg.jpg';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -17,15 +18,16 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="nav__logo__box">
-          <Link to="/" className={usePathname() === '/countrydetail' ? 'display__inline' : 'display__none'}>
+          <Link to="/" className={usePathname() === '/countrydetail' ? 'display__block' : 'display__none'}>
             <img
               src={arrrowLeft}
-              alt=""
+              alt="Angle Left Arrow"
+              className="nav__logo__arrow"
             />
           </Link>
-          <h2 className="nav__logo__text">
-            {usePathname() === '/countrydetail' ? '' : '2023'}
-          </h2>
+          <div className="nav__logo__text">
+            {usePathname() === '/countrydetail' ? '' : <img className="logo_img" src={logo} alt="Logo" /> }
+          </div>
         </div>
 
         <span className="nav__text__center">

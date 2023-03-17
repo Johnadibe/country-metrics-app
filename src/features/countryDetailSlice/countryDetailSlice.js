@@ -13,7 +13,7 @@ export const fetchCountryDetail = createAsyncThunk(
   'countryDetail/fetchCountryDetail',
   async (countrySelected) => {
     try {
-      const response = await fetch(`${API + countrySelected}`);
+      const response = await fetch(`${API}${countrySelected}`);
       return response.json();
     } catch (error) {
       return error.message;
@@ -38,20 +38,20 @@ export const countryDetailSlice = createSlice({
       }))
       .addCase(fetchCountryDetail.fulfilled, (state, action) => ({
         ...state,
-        detailCountry: (action.payload).map((country) => ({
-          id: country.name.common,
-          name: country.name.common,
-          capital: country.capital,
-          population: country.population,
-          map: `https://raw.githubusercontent.com/djaiss/mapsicon/master/all/${country.cca2.toLowerCase()}/vector.svg`,
-          flag: country.flags.png,
-          area: country.area,
-          timezones: country.timezones[0],
-          ccn3: country.ccn3,
-          latitude: country.latlng[0],
-          longitude: country.latlng[1],
-          languages: country.languages,
-          coatOfArms: country.coatOfArms,
+        detailCountry: action.payload.map((countryName) => ({
+          id: countryName.name.common,
+          name: countryName.name.common,
+          capital: countryName.capital,
+          population: countryName.population,
+          map: `https://raw.githubusercontent.com/djaiss/mapsicon/master/all/${countryName.cca2.toLowerCase()}/vector.svg`,
+          flag: countryName.flags.png,
+          area: countryName.area,
+          timezones: countryName.timezones[0],
+          ccn3: countryName.ccn3,
+          latitude: countryName.latlng[0],
+          longitude: countryName.latlng[1],
+          languages: countryName.languages,
+          coatOfArms: countryName.coatOfArms,
         })),
         status: 'succeeded',
       }))
