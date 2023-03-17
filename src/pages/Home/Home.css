@@ -1,5 +1,5 @@
 .home__body {
-  background-color: #161B22;
+  background-color: #161b22;
   height: 100vh;
 }
 
@@ -8,7 +8,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 0 1.6rem;
-  background-color: #161B22;
+  background-color: #161b22;
 }
 
 .card__flex-column {
@@ -64,4 +64,3 @@
   color: #fff;
   padding: 2rem 0 2rem 0;
 }
-

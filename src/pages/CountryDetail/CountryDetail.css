@@ -1,5 +1,5 @@
 .detail__body {
-  background-color: #161B22;
+  background-color: #161b22;
 }
 
 .detail__header__box {
@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 1.6rem;
-  background-color: #161B22;
+  background-color: #161b22;
 }
 
 .detail__header__box__map {
@@ -29,7 +29,7 @@
 .country__breakdown__text {
   font-size: 1.6rem;
   color: #fff;
-  background-color: #0D1117;
+  background-color: #0d1117;
   padding: 1rem 1.6rem;
 }
 
@@ -40,18 +40,19 @@
 
 .detail__breakdown__box__text {
   display: grid;
-  grid-template-columns: 1fr 10rem 2rem ;
+  grid-template-columns: 1fr 10rem 2rem;
   align-items: center;
   padding: 2.5rem 1rem 2.5rem 0.5rem;
   column-gap: 3.5rem;
-  background-color: #161B22;
+  background-color: #161b22;
 }
 
 .detail__breakdown__box__text .country__flag {
   width: 5rem;
 }
 
-.detail__breakdown__box__text h3, p {
+.detail__breakdown__box__text h3,
+p {
   font-size: 1.8rem;
   color: #fff;
 }
@@ -63,7 +64,7 @@
 }
 
 .color__dark {
-  background-color: #0D1117;
+  background-color: #0d1117;
 }
 
 .error__back {

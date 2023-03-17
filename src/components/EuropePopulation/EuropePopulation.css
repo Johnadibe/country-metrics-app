@@ -1,8 +1,8 @@
 .europe__population {
   display: grid;
-  grid-template-columns: 1fr 1px 1fr; 
+  grid-template-columns: 1fr 1px 1fr;
   height: 20rem;
-  background-color: #161B22;
+  background-color: #161b22;
 }
 
 .center-line {

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #0D1117;
+  background-color: #0d1117;
   color: #fff;
   padding: 1.2rem 1.6rem;
 }
@@ -47,4 +47,3 @@
 .nav__box__right button img {
   width: 100%;
 }
-
