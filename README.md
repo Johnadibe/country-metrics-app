@@ -26,7 +26,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 🗺️ Countries Information<a name="about-project"></a>
+# 🗺️ Countries Metrics App<a name="about-project"></a>
 
  <p>A Mobile web application offers information about european countries such as their population, area, flag, and other relevant details. Users can access a wide range of country-specific information, making it an invaluable resource for personal or professional research purposes.
 </p>
@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="">Live Link</a> <br>
+- <a href="https://country-metrics-app.onrender.com/">Live Link</a> <br>
   -Video Presentation Link <a href="https://www.loom.com/share/3f8acfbc1d5145e48b77f004d3a67967">Live Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
