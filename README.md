@@ -37,7 +37,7 @@
 
 ## 🛠 Built With <a name="built-with"> </a>
 
-> React, Redux , MUI react and external API
+> React, Redux , CSS and External API
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -55,7 +55,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - <a href="https://country-metrics-app.onrender.com/">Live Link</a> <br>
-  -Video Presentation Link <a href="https://www.loom.com/share/3f8acfbc1d5145e48b77f004d3a67967">Live Link</a>
+  -Video Presentation Link <a href="https://www.loom.com/share/8c2fd0f9ab2141fd834eed907861f348">Live Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
