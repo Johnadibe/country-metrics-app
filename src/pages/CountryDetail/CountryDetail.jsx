@@ -2,12 +2,14 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import rightArrow from '../../assests/svg/circle-arrow-right-solid.svg';
 import Footer from '../../components/Footer/Footer';
+import DetailNav from '../../components/detailNavbar/DetailNav';
 import './CountryDetail.css';
 
 const CountryDetail = () => {
   const country = useSelector((state) => state.countryDetail.detailCountry);
   return (
     <div className="detail__body">
+      <DetailNav />
       {
         country.length > 0 ? (
           <div>

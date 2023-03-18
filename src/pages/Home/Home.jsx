@@ -7,6 +7,7 @@ import { fetchCountryDetail, countrySelectedAction } from '../../features/countr
 import Search from '../../components/Input/Search/Search';
 import EuropePopulation from '../../components/EuropePopulation/EuropePopulation';
 import Footer from '../../components/Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
 import './Home.css';
 
 const Home = () => {
@@ -37,6 +38,7 @@ const Home = () => {
 
   return (
     <div className="home__body">
+      <Navbar />
       <EuropePopulation />
       <Search />
       <div className="country__grid">
@@ -45,7 +47,7 @@ const Home = () => {
           filteredCountries().map((country) => (
             <div className="card__flex-column" key={country.name}>
               <Link
-                to="/countrydetail"
+                to={`/countrydetail/${country.id}`}
                 id={country.name}
                 onClick={(e) => { onCardHandler(e); }}
                 className="card__link"

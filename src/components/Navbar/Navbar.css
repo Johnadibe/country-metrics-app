@@ -16,7 +16,8 @@
 }
 
 .nav__text__center {
-  font-size: 2rem;
+  font-size: 1.65rem;
+  font-weight: bold;
 }
 
 .nav__logo__box .display__block {
