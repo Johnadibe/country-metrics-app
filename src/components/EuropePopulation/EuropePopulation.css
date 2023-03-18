@@ -1,0 +1,42 @@
+.europe__population {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  height: 20rem;
+  background-color: #161b22;
+}
+
+.center-line {
+  border-left: 2px solid #1f2937;
+}
+
+.europe__population__img__box {
+  width: 100%;
+  position: relative;
+}
+
+.europe__population__img__box .europe__img {
+  width: 68%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  fill: #52525b;
+  margin-top: 2rem;
+}
+
+.europe__population__text {
+  display: flex;
+  flex-direction: column;
+  margin: 5.4rem 2rem 0 3.5rem;
+  color: #fff;
+}
+
+.europe__population__text h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.europe__population__text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}

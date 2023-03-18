@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0d1117;
+  color: #fff;
+  padding: 1.2rem 1.6rem;
+}
+
+.nav__logo__text {
+  width: 3.2rem;
+}
+
+.nav__logo__text img {
+  width: 100%;
+}
+
+.nav__text__center {
+  font-size: 1.65rem;
+  font-weight: bold;
+}
+
+.nav__logo__box .display__block {
+  display: inline-flex;
+}
+
+.nav__logo__arrow {
+  width: 1.5rem;
+}
+
+.nav__logo__box .display__none {
+  display: none;
+}
+
+.nav__box__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 5.6rem;
+}
+
+.nav__box__right button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav__box__right button img {
+  width: 100%;
+}

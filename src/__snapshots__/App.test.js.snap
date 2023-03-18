@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App without crashing 1`] = `
+Array [
+  <nav
+    className="navbar"
+  >
+    <div
+      className="nav__logo__box"
+    >
+      <a
+        className="display__none"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Angle Left Arrow"
+          className="nav__logo__arrow"
+          src="angle-left-solid.svg"
+        />
+      </a>
+      <div
+        className="nav__logo__text"
+      >
+        <img
+          alt="Logo"
+          className="logo_img"
+          src="logoimg.jpg"
+        />
+      </div>
+    </div>
+    <span
+      className="nav__text__center"
+    >
+      Europe Population
+    </span>
+    <div
+      className="nav__box__right"
+    >
+      <button
+        type="button"
+      >
+        <img
+          alt="Microphone"
+          src="microphone-solid.svg"
+        />
+      </button>
+      <button
+        type="button"
+      >
+        <img
+          alt="Gear"
+          src="gear-solid.svg"
+        />
+      </button>
+    </div>
+  </nav>,
+  <div
+    className="home__body"
+  >
+    <div
+      className="europe__population"
+    >
+      <div
+        className="europe__population__img__box"
+      >
+        <img
+          alt="Europe Map"
+          className="europe__img"
+          src="https://svgsilh.com/svg/151588.svg"
+        />
+      </div>
+      <div
+        className="center-line"
+      />
+      <div
+        className="europe__population__text"
+      >
+        <h1>
+          Europe
+        </h1>
+        <p>
+          Loading...
+           
+          Population
+        </p>
+      </div>
+    </div>
+    <div
+      className="search__box"
+    >
+      <img
+        alt=""
+        className="search__icon"
+        src="magnifying-glass-solid.svg"
+      />
+      <input
+        className="search__input"
+        onChange={[Function]}
+        placeholder="Search for a country..."
+        type="text"
+      />
+    </div>
+    <div
+      className="country__grid"
+    >
+      <h1
+        className="card_text_none"
+      >
+        OOps! No Country Found. Please Search Again
+      </h1>
+    </div>
+    <div>
+      <h3
+        className="footer"
+      >
+        @Copyright. 2023; Built by John C. Adibe
+      </h3>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders CountryDetail without crashing 1`] = `
+Array [
+  <div
+    className="detail__body"
+  >
+    <h1
+      className="error__back"
+    >
+      Oops! Please press back 
+    </h1>
+    <div>
+      <h3
+        className="footer"
+      >
+        @Copyright. 2023; Built by John C. Adibe
+      </h3>
+    </div>
+  </div>,
+  ",",
+]
+`;
+
+exports[`renders Home without crashing 1`] = `
+Array [
+  <div
+    className="home__body"
+  >
+    <div
+      className="europe__population"
+    >
+      <div
+        className="europe__population__img__box"
+      >
+        <img
+          alt="Europe Map"
+          className="europe__img"
+          src="https://svgsilh.com/svg/151588.svg"
+        />
+      </div>
+      <div
+        className="center-line"
+      />
+      <div
+        className="europe__population__text"
+      >
+        <h1>
+          Europe
+        </h1>
+        <p>
+          Loading...
+           
+          Population
+        </p>
+      </div>
+    </div>
+    <div
+      className="search__box"
+    >
+      <img
+        alt=""
+        className="search__icon"
+        src="magnifying-glass-solid.svg"
+      />
+      <input
+        className="search__input"
+        onChange={[Function]}
+        placeholder="Search for a country..."
+        type="text"
+      />
+    </div>
+    <div
+      className="country__grid"
+    >
+      <h1
+        className="card_text_none"
+      >
+        OOps! No Country Found. Please Search Again
+      </h1>
+    </div>
+    <div>
+      <h3
+        className="footer"
+      >
+        @Copyright. 2023; Built by John C. Adibe
+      </h3>
+    </div>
+  </div>,
+  ",",
+]
+`;
+
+exports[`renders Navbar without crashing 1`] = `
+Array [
+  <nav
+    className="navbar"
+  >
+    <div
+      className="nav__logo__box"
+    >
+      <a
+        className="display__none"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Angle Left Arrow"
+          className="nav__logo__arrow"
+          src="angle-left-solid.svg"
+        />
+      </a>
+      <div
+        className="nav__logo__text"
+      >
+        <img
+          alt="Logo"
+          className="logo_img"
+          src="logoimg.jpg"
+        />
+      </div>
+    </div>
+    <span
+      className="nav__text__center"
+    >
+      Europe Population
+    </span>
+    <div
+      className="nav__box__right"
+    >
+      <button
+        type="button"
+      >
+        <img
+          alt="Microphone"
+          src="microphone-solid.svg"
+        />
+      </button>
+      <button
+        type="button"
+      >
+        <img
+          alt="Gear"
+          src="gear-solid.svg"
+        />
+      </button>
+    </div>
+  </nav>,
+  ",",
+]
+`;

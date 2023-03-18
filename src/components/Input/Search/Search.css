@@ -1,0 +1,29 @@
+.search__box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #0d1117;
+  padding: 0 0 0 1.6rem;
+}
+
+.search__input {
+  flex: 1;
+  height: 5rem;
+  padding: 0 0 0 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #0d1117;
+  transition: all 0.3s;
+}
+
+.search__input::placeholder {
+  color: #fff;
+}
+
+.search__box .search__icon {
+  width: 2rem;
+  background-color: #0d1117;
+}
