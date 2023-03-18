@@ -1,138 +1,132 @@
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <h3> 🗺️ <b>Countries Metric App</b> 🗺️</h3>
+
+</div>
+
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Exotic Rentals ](#-exotic-rentals--)
-  - [Backend](#backend)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [:camera: project screenshot](#screen-shoot)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-# 📖 Bookstore App <a name="about-project"></a>
+# 🗺️ Countries Information<a name="about-project"></a>
 
-**bookstore app** The Bookstore is a website where the user can display a list of books, add a book by providing a title, an author, and selecting from the categories, and remove a selected book.
+ <p>A Mobile web application offers information about european countries such as their population, area, flag, and other relevant details. Users can access a wide range of country-specific information, making it an invaluable resource for personal or professional research purposes.
+</p>
 
-## 🛠 Built With <a name="built-with"></a>
+## 📷 project screenshot <a name="screen-shoot"> </a>
+
+<img src="https://user-images.githubusercontent.com/40009354/225965283-c30c4010-82db-4425-bbeb-28da428471d4.PNG" alt="logo" width="auto"  height="auto" />
+
+## 🛠 Built With <a name="built-with"> </a>
+
+> React, Redux , MUI react and external API
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="#">CSS</a></li>
-  </ul>
-</details>
+> React, Redux, Axios, Jest, Webpack and Babel
 
 ### Key Features <a name="key-features"></a>
 
-- **[Display a list of books.]**
-- **[Add a book.]**
-- **[Remove a selected book.]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <li>Display total Europe population</li>
+<li>Display Countries with their area, population, etc.</li>
+<li>Detail information about selected country</li>
+<li>Mobile web Responisive layout</li>
+<li>Used REST countries API <a href="https://restcountries.com/">Link</a></li>
+<p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- No Live Demo Link
+- <a href="">Live Link</a> <br>
+  -Video Presentation Link <a href="https://www.loom.com/share/3f8acfbc1d5145e48b77f004d3a67967">Live Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+to run on your localhost clone the project to local folder
+
+> <p>cd country-metrics-app</p>
+> <p>npm i</p>
+> <p> npm start<p>
+
+### Setup
+
+> <p> git clone https://github.com/Johnadibe/country-metrics-app.git</p>
+> cd country-metrics-app
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Prerequisites
 
 In order to run this project you need:
 
-### Setup
-
-Clone this repository to your desired folder:
-
-```sh
-  cd my-folder
-  git clone git@github.com:Johnadibe/bookstore-app.git
-```
+- latest web-browser
+- node.js and npm
 
 ### Install
 
-Install this project with:
+To install this project in your local machine use
 
-```sh
-  cd bookstore-app
-  yarn install
-```
+> <p> npm i </p>
+> npm run build
 
 ### Usage
 
 To run the project, execute the following command:
 
-```sh
-  npm start
-```
+> <p> Open terminal on the same directory of project </p>
+> <p> write "npm start"</p>
+> <p> open http://localhost:3000/ in browser </p>
 
-### Deployment
-
-You can deploy this project using:
-
-```sh
-  git push main
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 👥 Author <a name="author"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **John Adibe**
 
 - GitHub: [@Johnadibe](https://github.com/Johnadibe)
 - Twitter: [@JohnAdibe2](https://twitter.com/JohnAdibe2)
-- LinkedIn: [@John Adibe](https://www.linkedin.com/in/john-adibe-400b36166/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- LinkedIn: [@John Adibe](https://www.linkedin.com/in/john-adibe/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Display a list of books.]**
-- [ ] **[Add a book.]**
-- [ ] **[Remove a selected book.]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+> Add Mobile Version using React Native
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Johnadibe/country-metrics-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project consider giving it a star ⭐️.
+> If you like the project please give it star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for giving me the opportunity to work on this project.
+- <p>I want to thank the Microverse team. </p>
 
-- LazyCoders
-- Coding Partners
+- <p> I would like to express gratitude to <a href="https://www.behance.net/sakwadesignstudio">Nelson Sakwa on Behance</a>, as per the Creative Commons license.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
