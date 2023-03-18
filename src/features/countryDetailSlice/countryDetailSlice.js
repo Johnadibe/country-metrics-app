@@ -1,4 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
 const API = 'https://restcountries.com/v3.1/name/';
 
@@ -13,8 +14,8 @@ export const fetchCountryDetail = createAsyncThunk(
   'countryDetail/fetchCountryDetail',
   async (countrySelected) => {
     try {
-      const response = await fetch(`${API}${countrySelected}`);
-      return response.json();
+      const response = await axios.get(`${API}${countrySelected}`);
+      return response.data;
     } catch (error) {
       return error.message;
     }
